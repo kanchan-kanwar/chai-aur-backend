@@ -1,1 +1,1 @@
-this is backend project
+git repository of this project is chai-aur-backend
