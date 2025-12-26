@@ -12,7 +12,7 @@ import fs from "fs";
             if(!localFilePath) return null;
             const response=await cloudinary.uploader.upload(localFilePath,{resource_type:"auto"})
             //file has been uploaded successfully
-            console.log(response);
+            // console.log(response);
             console.log("file has been uploaded successfully",response.url);
             return response
         }
