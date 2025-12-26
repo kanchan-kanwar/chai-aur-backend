@@ -44,4 +44,4 @@ const videoSchema  = new Schema(
 )
 
 videoSchema.plugin(mongooseAggregatePaginate) // add common login to many schema,extend schema capablities
-export const Video = mongoose.model("Video",videSchema)
+export const Video = mongoose.model("Video",videoSchema)
